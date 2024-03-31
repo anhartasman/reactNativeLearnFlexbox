@@ -3,7 +3,8 @@ import {Text, View} from 'react-native';
 
 export default function App() {
     return (
-        <View style={{padding: 50}}>
+        //flexDirection row column column-reverse row-reverse
+        <View style={{padding: 50, flexDirection:'row',}}>
             <View
                 style={{
                     backgroundColor: 'red',
